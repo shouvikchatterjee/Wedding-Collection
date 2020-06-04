@@ -1,0 +1,14 @@
+$(document).ready(function(){
+	$(".nav-link").click(function(){
+		$(".nav-link").removeClass("active");
+		$(this).addClass("active");
+	});
+	$(".item").click(function(){
+		$(".item").removeClass("item_active");
+		$(this).addClass("item_active");
+	});
+	$(".vid_text").click(function(){
+		$(".vid_text").removeClass("vid_text_active");
+		$(this).addClass("vid_text_active");
+	});
+});
